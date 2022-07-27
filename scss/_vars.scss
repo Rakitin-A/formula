@@ -1,0 +1,34 @@
+$accent: #207FF1;
+$default: #000;
+$bg: #F1F6FC;
+
+
+%sf-400{
+    font-family: 'SF UI Text';
+    font-weight: 400;
+}
+%sf-500{
+    font-family: 'SF UI Text';
+    font-weight: 500;
+}
+%sf-600{
+    font-family: 'SF UI Text';
+    font-weight: 600;
+}
+%sf-700{
+    font-family: 'SF UI Text';
+    font-weight: 700;
+}
+%sf-800{
+    font-family: 'SF UI Text';
+    font-weight: 800;
+}
+
+
+
+@function max($numbers...) {
+    @return m#{a}x(#{$numbers});
+}
+@function min($numbers...) {
+    @return m#{i}n(#{$numbers});
+}
